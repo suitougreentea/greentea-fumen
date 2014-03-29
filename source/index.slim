@@ -1,0 +1,51 @@
+div#container
+  div#pages-container
+    div#ctrl-group-paging-1.btn-group.btn-group-justified
+      a#ctrl-paging-home.btn.btn-default href="#" <<
+      a#ctrl-paging-prev.btn.btn-default href="#" <
+      a#ctrl-paging-next.btn.btn-default href="#" >
+      a#ctrl-paging-end.btn.btn-default href="#" >>
+    div#ctrl-group-paging-2.btn-group.btn-group-justified
+      a#ctrl-paging-duplicate.btn.btn-default href="#" dup
+      a#ctrl-paging-delete-before.btn.btn-default href="#" &lt;x
+      a#ctrl-paging-delete.btn.btn-default href="#" x
+      a#ctrl-paging-delete-after.btn.btn-default href="#" x&gt;
+    div#pages
+      ul
+        li 1 PageA
+        li
+          | 2 PageB
+          ul
+            li 2-1 ChildA
+            li 2-2 ChildB
+        li 3 PageC
+  div#tetris
+    div#next
+    div#field
+  div#controller
+    ul#ctrl-tab-selectblock.nav.nav-tabs
+    div#ctrl-tab-contents-selectblock.tab-content
+    hr
+    div#ctrl-group-selectmino.btn-group.btn-group-justified
+      a#ctrl-selectmino-z.btn.btn-default href="#" Z
+      a#ctrl-selectmino-l.btn.btn-default href="#" L
+      a#ctrl-selectmino-o.btn.btn-default href="#" O
+      a#ctrl-selectmino-s.btn.btn-default href="#" S
+      a#ctrl-selectmino-i.btn.btn-default href="#" I
+      a#ctrl-selectmino-j.btn.btn-default href="#" J
+      a#ctrl-selectmino-t.btn.btn-default href="#" T
+    div#ctrl-group-selectmino-rot.btn-group.btn-group-justified
+      a#ctrl-selectmino-rot-lef.btn.btn-default href="#" ↺
+      a#ctrl-selectmino-rot-right.btn.btn-default href="#" ↻
+    hr
+    div#ctrl-group-controller.btn-group.btn-group-justified
+      a#ctrl-mino-left.btn.btn-default href="#" ←
+      a#ctrl-mino-up.btn.btn-default href="#" ↑
+      a#ctrl-mino-down.btn.btn-default href="#" ↓
+      a#ctrl-mino-right.btn.btn-default href="#" →
+      a#ctrl-mino-hard.btn.btn-default href="#" ⇓
+      a#ctrl-mino-rot-left.btn.btn-default href="#" ↺
+      a#ctrl-mino-rot-right.btn.btn-default href="#" ↻
+      a#ctrl-mino-hold.btn.btn-default href="#" ⇄
+    textarea.form-control
+    div#ctrl-group-selectblock.btn-group data-toggle="buttons"

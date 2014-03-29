@@ -1,0 +1,67 @@
+$blocksize: 16px
+$borderstyle: 1px solid #555
+//$colors: #000, #
+
+#pages-container
+  width: 200px
+  height: 480px
+  float: left
+#pages
+  height: 400px
+  border: 1px solid #000
+  overflow: scroll
+#tetris
+  float: left
+#next
+  // width: script-process
+  width: 160px
+  height: 120px
+#field
+  float: left
+  border-left: $borderstyle
+  border-top: $borderstyle
+#controller
+  float: left
+  width: 320px
+
+#ctrl-group-selectmino
+  height: 50px
+  >.btn
+    height: 50px
+
+#ctrl-tab-contents-selectblock
+  height: 64px
+  >.tab-pane
+    height: 64px
+    //overflow: scroll
+
+.field-row
+  height: $blocksize
+.field-cell
+  width: $blocksize
+  height: $blocksize
+  float: left
+
+  text-align: center
+  font-size: 10px
+  line-height: $blocksize
+
+  background-color: #000
+  border-right: $borderstyle
+  border-bottom: $borderstyle
+  //> span
+  //  font-size: 8px 
+  //  line-height: $blocksize
+
+.btn-selectblock
+  width: 32px
+  padding: 6px 8px
+  //height: 32px
+.selectblock-cell
+  width: $blocksize
+  height: $blocksize
+
+  text-align: center
+  font-size: 12px
+  line-height: $blocksize
+  border: 1px solid #000
